@@ -9,9 +9,7 @@
   system.nixos.distroId = "eselanix";
 
   environment.interactiveShellInit = lib.mkForce ''
-    echo -e "\e[1;35mWelcome to Eselanix.\e[0m"
-    echo -e "You are using version 1.0.0 \e[1;35m(stable)\e[0m."
-    echo ""
+    if [ "$TERM" = "linux" ]; then echo -e "\e[1;35mWelcome to Eselanix.\e[0m"; echo -e "You are using version 1.0.0 \e[1;35m(stable)\e[0m."; echo ""; fi
   '';
 
   environment.etc."fastfetch/eselanix.txt".text = builtins.readFile ./eselanix.txt;
