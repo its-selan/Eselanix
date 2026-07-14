@@ -5,8 +5,7 @@ import subprocess
 
 def clear_screen():
     os.system("clear")
-
-
+ 
 # Welcome
 
 def step_1_welcome():
