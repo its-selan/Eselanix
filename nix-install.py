@@ -287,7 +287,6 @@ def main():
 
     step_8_install(LANG, TZ, USERNAME, USER_PASSWORD, ZRAM)
     
-    clear_screen()
     input("Press Enter to continue.")
 
 if __name__ == "__main__":
