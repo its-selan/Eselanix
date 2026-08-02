@@ -13,3 +13,4 @@ The project is just getting started. I’d welcome any support or feedback.
 Проект только начинает развиваться. Буду рад любой поддержке и обратной связи.
 
 LICENSE: GPL-3.0
+ 
